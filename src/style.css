@@ -1,0 +1,27 @@
+body {
+  background: EFE6E0;
+  text-align: center;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: darkorchid;
+  background: #fbac00;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.email-link {
+  background: none;
+  color: black;
+  opacity: 0.6;
+}
