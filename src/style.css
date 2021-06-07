@@ -2,8 +2,19 @@ body {
   background: EFE6E0;
   text-align: center;
 }
+
+.background {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 a {
@@ -15,6 +26,16 @@ a {
   margin-top: 20px;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .navigation {
   display: flex;
   justify-content: space-evenly;
@@ -24,4 +45,11 @@ a {
   background: none;
   color: black;
   opacity: 0.6;
+}
+
+.description {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
